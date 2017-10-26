@@ -2,7 +2,7 @@
 sublime连接github
 
 
-######git的使用######
+######git的简单使用######
 
 1.进入到项目目录<br>
 cd /F/学习/13其他职位技术/web前端开发/github/ <br>
@@ -22,3 +22,13 @@ git commit -m 'first_commit'
 
 6.push上去<br>
 git push origin master
+
+
+
+##########git命令###########
+
+1.add<br>
+git add <path> --主要用于把要提交的文件的信息添加到索引库中<br>
+git add -i [<path>]  --查看<path>中被所有修改过或已删除文件但没有提交的文件，即索引库中的文件
+2.rm<br>
+git rm -f --cached fe或者readme.md  ----强制删除暂存区的文件或文件夹
