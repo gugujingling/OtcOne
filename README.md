@@ -2,7 +2,7 @@
 sublime连接github
 
 
-######git的简单使用###### 
+#########git的简单使用########
 <br>
 github文件夹中有多个项目，OtcOne、fe等项目
 
