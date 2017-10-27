@@ -27,31 +27,3 @@ git commit -m 'first_commit'
 git push origin master
 
 
-
-##########还原到指定版本##############
-1.增加点内容
-2.修改下内容
-
-3.测试返回一个版本的修改。
-
-    3为本地新增，未提交至版本库
-
-    执行git revert指令
-
-    预测结果 返回到github最新的commit二进制，本地文件第三条信息消失  
-
-    实际结果 失败
-
-#git revert e3b899484b86a2f834d5e9547af94f8e02b4986d
-
-#error: Your local changes to the following files would be overwritten by merge:
-#        asdf.txt
-#Please commit your changes or stash them before you merge.
-#Aborting
-#fatal: revert failed
-
-总结： 使用git revert 指令需确保目前版本与github版本一致， 然后返回任意指定的版本，3仍然存在，只是将指定的版本的修改还原
-
-#############删除项目#################
-1.
-
