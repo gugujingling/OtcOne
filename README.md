@@ -2,7 +2,8 @@
 sublime连接github
 
 
-######git的简单使用######
+######git的简单使用###### 
+<br>
 github文件夹中有多个项目，OtcOne、fe等项目
 
 
@@ -27,10 +28,3 @@ git push origin master
 
 
 
-##########git命令###########
-
-1.add<br>
-git add <path> --主要用于把要提交的文件的信息添加到索引库中<br>
-git add -i [<path>]  --查看<path>中被所有修改过或已删除文件但没有提交的文件，即索引库中的文件
-2.rm<br>
-git rm -f --cached fe或者readme.md  ----强制删除暂存区的文件或文件夹
